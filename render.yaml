@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: touristic-places-recommendation
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: "python app.py"
